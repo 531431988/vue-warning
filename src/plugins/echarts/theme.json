@@ -1,0 +1,32 @@
+{
+  "color": [
+    "#45CB80",
+    "#CFF3E5",
+    "#647697",
+    "#D2D8E0",
+    "#F7C11F",
+    "#FDEDBE",
+    "#E96A5A",
+    "#F9D4CE",
+    "#75CBEE",
+    "#D5EFF9",
+    "#9966BD",
+    "#DFD1EB",
+    "#FF9D4E",
+    "#FFE1C9",
+    "#299999",
+    "#BFDFDF",
+    "#FF9FC7",
+    "#FFE1ED"
+  ],
+  "backgroundColor": "transparent",
+  "textStyle": {},
+  "title": {
+    "textStyle": {
+      "color": "#666666"
+    },
+    "subtextStyle": {
+      "color": "#999999"
+    }
+  }
+}

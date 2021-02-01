@@ -1,0 +1,60 @@
+.main {
+  padding: 16px;
+  height: calc(100vh - 60px);;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #F4F7F9;
+}
+.multi-column-contour {
+  >.ant-col{
+    &:first-child{
+      border-right: 1px solid  @border-color-split;
+    }
+    &:last-child{
+      border-left: 1px solid  @border-color-split;
+      margin-left: -1px;
+    }
+  }
+}
+.vue-count-to{
+  color: #333
+}
+
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+}
+.form-item-sm {
+  .ant-form-item{
+    margin-bottom: 5px;
+  }
+  .ant-form-item-label,
+  .ant-form-item-control{
+    line-height: 30px;
+  }
+}
+.ant-modal-wrap {
+  &::-webkit-scrollbar-track {  
+    box-shadow: none;
+  }  
+  // 定义滑块
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.ant-notification-notice-with-icon .ant-notification-notice-description {
+  word-break: break-all;
+}
